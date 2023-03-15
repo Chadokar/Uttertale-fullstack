@@ -1,0 +1,204 @@
+.chart-box{
+    background: #F5F5F5;
+    border-radius: 12px;
+    padding: 24px 40px;
+    width: 100%;
+}
+
+.analysis-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    border-bottom: 1px solid #D1D1D1;
+    box-sizing: border-box;
+}
+
+.analysis-nav p{
+    padding: 13px 10px;
+    cursor: pointer;
+}
+
+.analysis-nav p.myactive{
+    padding: 12px 10px;
+    color: #138DEC;
+    border-bottom: 2px solid #138DEC;
+    transition: ease all 0.006s;
+}
+
+.drop-add{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: fit-content;
+}
+
+.competitor{
+    width: 214px;
+}
+
+.duration{
+    width: 185px;
+}
+
+.comp-mark{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+.coverage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px 24px;
+    gap: 40px;
+    background: #F5F5F5;
+    border-radius: 12px;
+}
+
+.donut-data{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+}
+
+.donut-data-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.donut-data-col .rank{
+    font-family: 'elza';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #242424;
+}
+
+.analysis .group-competitors{
+    right: 40px;
+    top: 293px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 32px 32px;
+    gap: 24px;
+    background: #F5F5F5;
+    position: absolute;
+    max-width: 547px;
+    min-width: fit-content;
+    overflow-y: scroll;
+    height: 90vh;
+    z-index: 9;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.analysis .group-competitors::-webkit-scrollbar{
+    display: none;
+}
+
+.g-c-heading{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 4px 24px;
+    width: 483px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.checkbo{
+    height: 20px;
+    width: 20px;
+    border: none;
+    outline: none;
+
+}
+
+.g-c-button-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    gap: 4px;
+    border-top: 1px solid #D1D1D1;
+    width: 100%;
+}
+
+.com-checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 0px;
+    gap: 4px;
+    width: 423px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    overflow-y: scroll;
+    height: 60vh;
+}
+
+.com-checkbox::-webkit-scrollbar{
+    display: none;
+}
+
+.checkbox-competitors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 12px;
+    width: 100%;
+}
+
+.comp-buttom-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    gap: 4px;
+    border-top: 1px solid #D1D1D1;
+}
+
+.mycoverage{
+    background: #F5F5F5;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 8px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}

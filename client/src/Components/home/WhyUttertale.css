@@ -1,0 +1,113 @@
+.why-bold {
+  width: 1120px;
+}
+
+.why-bold h1 {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+
+  text-align: center;
+  letter-spacing: 0.015em;
+}
+
+.text-and-img {
+  width: 1120px;
+  /* background: #D5D5D5; */
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.why-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 80px 16px 16px;
+  /* background-color: red; */
+  /* margin-left: 112px; */
+}
+
+.why-text h1 {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  margin-bottom: 12px;
+  letter-spacing: 0.015em;
+  /* background-color: #D5D5D5; */
+  color: #000000;
+}
+
+.why-text p {
+  /* font-family: 'Century Gothic Pro'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.why-text a {
+  height: 17px;
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #ff3520;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 420px) {
+  .desktop {
+    display: none;
+  }
+
+  .resp {
+    display: flex;
+  }
+
+  .why-bold {
+    width: 100%;
+    padding: 16px 4px;
+    background: khaki;
+    margin: 0;
+  }
+
+  .text-and-img {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    gap: 8px;
+    padding: 0;
+  }
+
+  .why-text {
+    padding: 8px 4px;
+    gap: 8px;
+  }
+
+  .why-text h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .why-text p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .why-text a {
+    margin: 0;
+    padding: 0;
+  }
+}

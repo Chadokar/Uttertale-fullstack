@@ -1,0 +1,84 @@
+.just500 {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.just500-inside {
+  width: 1120px;
+  height: 268px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.just500-text {
+  height: 108px;
+  /* background-color: yellow; */
+}
+.just500-text h1 {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  /* or 54px */
+
+  letter-spacing: 0.015em;
+
+  /* Default/Forground */
+
+  color: #242424;
+}
+
+.just500-text .colored {
+  color: #ff3520;
+}
+
+.newspaper {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 217px;
+  /* background-color: blueviolet; */
+}
+
+@media screen and (max-width: 420px) {
+  .just500 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 16px 0px 20px;
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .just500-inside {
+    gap: 32px;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .just500-text {
+    height: fit-content;
+    width: fit-content;
+    gap: 6px;
+  }
+  .newspaper {
+    height: fit-content;
+    width: 100%;
+    margin: 0;
+  }
+
+  .desktop {
+    display: none;
+  }
+}

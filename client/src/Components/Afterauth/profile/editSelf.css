@@ -1,0 +1,83 @@
+.edit-box{
+    width: 942px;
+    overflow-y: auto;
+}
+
+.edit-container{
+    width: 100%;
+    /* background: tan; */
+}
+
+::-webkit-scrollbar { 
+    width: 4px;
+    border: none;
+    height: 0px;
+}
+
+.MuiDialog-container .css-2rbg70-MuiPaper-root-MuiDialog-paper{
+    border-radius: 12px;
+}
+
+.MuiDialog-container .css-2rbg70-MuiPaper-root-MuiDialog-paper::-webkit-scrollbar{
+    /* margin-top: 10px; */
+    width: 0px;
+    /* border: none;
+    height: 0px;
+    background: #FFFFFF; */
+    overflow-y: hidden;
+}
+
+.MuiDialog-container .css-2rbg70-MuiPaper-root-MuiDialog-paper::-webkit-scrollbar-track:vertical{
+    background: #138DEC;
+    overflow: hidden;
+}
+  
+::-webkit-scrollbar-track:vertical {
+    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 8px;
+}
+  
+::-webkit-scrollbar-thumb:vertical {
+    border-radius: 4px;
+    background: #D9D9D9;
+}
+
+.edit-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 4px 24px;
+
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.edit-name-box{
+    gap: 6px;
+}
+
+.edit-prof-about{
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 12px;
+    gap: 10px;
+    isolation: isolate;
+}
+
+.edit-container textarea:focus{
+    outline: none !important;
+    border-color: #138DEC;
+    border-width: 1px;
+}
+
+.edit-container label:focus-within{
+    outline: none !important;
+    border-color: #138DEC;
+    border-width: 1px;
+}
+
