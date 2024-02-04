@@ -6,6 +6,7 @@ import CpageLogo from "../assets/images/CpageLogo.svg";
 import { Font, Options, Themes } from "../../styling/Styles";
 import axios from "axios";
 import ReactSelect from "react-select";
+import { REACT_APP_BACKEND_URL } from "../../config";
 
 function Contact() {
   const [fullname, setName] = useState("");
@@ -17,24 +18,12 @@ function Contact() {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    if (
-      isAccepted &&
-      fullname !== "" &&
-      fullname !== null &&
-      email !== "" &&
-      email !== null &&
-      pnumber !== "" &&
-      pnumber !== null &&
-      role !== "" &&
-      role !== null &&
-      writetous !== "" &&
-      writetous !== null
-    ) {
+    if (true) {
       setIsAccepted(true);
       e.preventDefault();
       console.log("enterd");
       axios
-        .post(`http://localhost:8000/writetous/`, {
+        .post(`${REACT_APP_BACKEND_URL}/writetous/`, {
           fullname: fullname,
           email: email,
           pnumber: pnumber,

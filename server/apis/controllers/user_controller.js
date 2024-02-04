@@ -322,7 +322,7 @@ exports.writetous = async (req, res) => {
   const { fullname, email, pnumber, role, writetous } = req.body;
   const emailSent = await sgMail.send({
     from: process.env.EMAIL,
-    to: `shubham@prandit.com,rishu@prandit.com`,
+    to: `shubhamchadokar36@gmail.com`,
     subject: "User contacted through Contact Page",
     text: "Reset your password for Uttertale.",
     html: `<p>${writetous}<br/><br/>Name : ${fullname}<br/>Email : ${email}<br/>Mobile No. : ${pnumber}<br/>Profile : ${role}</p>`,
